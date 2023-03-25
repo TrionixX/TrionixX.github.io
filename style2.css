@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Coluna"; 
+    src: url("fonts/Coluna.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(image/background.jpg);
+    background-size: 100%;
+    color: white;
+    font-family: Coluna;  
+}
+.blokswithperson{
+    display: flex;
+    width: 100%;
+    height: 700px;
+
+    border-radius: 10px;
+    background-color: rgba(53, 12, 72, 0.499);
+    grid-template-columns: 100px;
+    grid-template-rows: 400px;
+
+    
+    outline-offset: -30px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform .25s ease;
+    border-radius: 40px;
+}
+.Jokerphoenix{
+
+}
+.Jokerdarkknight{
+
+}
+.blokswithperson div{
+    background-color: black;
+    width: 100%;
+    margin: 10px;
+}
+.text{
+    text-align: center;
+    font-size: 40px;
+    width: 800px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-family: Coluna;  
+    background-color: rgba(0, 0, 0, 0.532);
+}
+p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    inset: 0;
+    object-fit: cover;
+    transition: 
+    transform .75s ease;
+}
+
+.Jokerdarkknight:hover img{
+    transform: scale(1.15);
+}
+.Jokerphoenix:hover img{
+    transform: scale(1.15);
+}
+.Jokercartoon:hover img{
+    transform: scale(1.15);
+}
+a{
+    text-decoration: none;
+}

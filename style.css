@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Coluna"; 
+    src: url("fonts/Coluna.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+body{
+    margin: 0;
+    background-image: url(image/imgonline-com-ua-AutoEnrich-BiaqWKYaFSxh.jpg);
+    background-size: 120%;
+    color: rgba(238, 238, 238, 0.936);
+    font-family: Coluna;    
+}
+.panel{
+    overflow: hidden;
+}
+.panel  li{
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    list-style-type:none;
+}
+.panel .importantword{
+    margin-left: 1225px;
+    font-size: 55px;
+    font-weight: 700;
+}
+.Development{
+    width: 500px;
+    height: 400px;
+    margin-left: 300px;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.Sword{
+    font-size:70px;
+    margin: 0;
+    text-align: center;
+}
+.words{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.text{
+    margin: 0;
+}
+.overflow{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 600px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 250px;
+}
+a{
+    text-decoration: none;
+    color: rgba(238, 238, 238, 0.936);
+}
+@media(max-width: 820px){
+    .panel .importantword{
+        margin-left: 600px;
+        font-size: 55px;
+        font-weight: 700;
+    }
+}
